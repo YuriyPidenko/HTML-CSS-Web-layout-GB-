@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: black;
+    background-color: #ffffff;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.top {
+    max-width: 1600px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 859px;
+    background-color: #222222;
+}
+
+.header-logo {
+    margin-top: 19px;
+}
+
+.menu {
+    margin-right: 240 px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+.header-magnifier {
+    margin-left: 41px;
+    border: none;
+    background: none;
+}
+
+.header-settings {
+    border: none;
+    background: none;
+}
+
+.header-persanal {
+    margin-left: 33px;
+    border: none;
+    background: none;
+}
+
+.header-basket {
+    margin-left: 33px;
+    border: none;
+    background: none;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn:hover:active {
+    background-color: #5c5c5c;
+}
+
+.cover {
+    background: #F1E4E6;
+}
+
+.cover-img {
+    width: 800.58px;
+    height: 764px;
+}
+
+.cover-rectungle {
+    margin-left: 63.42px;
+    margin-bottom: 382.10px;
+    width: 12px;
+    height: 92px;
+}
+
+.cover-title-img {
+    width: 377px;
+    height: 93px;
+    margin-left: 16px;
+    margin-bottom: 381px;
+}
+
+.offer {
+    max-width: 1600px;
+    width: 100%;
+    margin-top: 65px;
+}
+
+.offer-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.offer-item {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-list>div:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.offer-item-big {
+    max-width: 1140px;
+    width: 100%;
+    min-height: 180px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-content {
+    position: absolute;
+}
+
+.offer-subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.offer-title {
+    color: #F16D7F;
+    text-align: center;
+    font-size: 24px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.offer-img {
+    width: 360px;
+    height: 260px;
+}
+
+.offer-img-big {
+    width: 1140px;
+    height: 180px;
+}
+
+.product-tittle {
+    text-align: center;
+    margin-top: 96px;
+    color: #222;
+    font-size: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.prodauct-tittle-txt {
+    text-align: center;
+    margin-top: 6px;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-list {
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.product-item {
+    background-color: #F8F8F8;
+}
+
+.product-content {
+    display: flex;
+    width: 328px;
+    padding: 24px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.product-subtitle {
+    color: #000;
+    font-size: 13px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.product-subtitle-txt {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product-price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.product-picture-women {
+    width: 360px;
+    height: 420px;
+    background: #F7E4E2;
+}
+
+.picture-women {
+    margin-left: 108px;
+    margin-top: 9px;
+}
+
+.product-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-btn {
+    margin-top: 48px;
+    margin-bottom: 60px;
+    width: 212px;
+    height: 48px;
+    color: #F26376;
+    font-size: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #ffffff;
+    border-color: #FF6A6A;
+}
